@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f8ff;
+}
+.hr-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+      
+.hr-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1e40af;
+}
+      
+.hr-diagram {
+    background: linear-gradient(to bottom, #0c1445, #1e1b4b, #0c1445);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 0.8rem;     
+}
+      
+
+.hr-info-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 28rem;
+    border: 2px solid #60a5fa;
+    z-index: 10;
+}
+      
+.hr-info-header {
+    display: flex;
+    justify-content: space-between;
+}
+      
+.hr-info-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+      
+.hr-close-button {
+    color: #6b7280;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+      
+.hr-star-details {
+        display: flex;
+        align-items: center;
+        margin-top: 0.1rem;
+}
+      
+.hr-star-color {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+}
+      
+.hr-description {
+        margin-top: 0.75rem;
+}
+      
