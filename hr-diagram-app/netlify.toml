@@ -1,4 +1,7 @@
 [build]
-  base = "hr-diagram-app/"
-  publish = "hr-diagram-app/build/"
-  command = "npm install && npm run build"
+  base = "hr-diagram-app"
+  publish = "build"
+  command = "export NODE_OPTIONS=--openssl-legacy-provider && npm install && npm run build"
+
+[build.environment]
+  NODE_OPTIONS = "--openssl-legacy-provider"
